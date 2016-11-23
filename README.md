@@ -6,12 +6,14 @@ Extracts PNG sprites from SkypeResources.dll(lib where smileys are) that look li
 
 Put SkypeResources.dll into directory where generate_sprites.py is
 
-''' bash
+``` bash
 python3 generate_sprites.py
-'''
+```
 
 PNG sprites are in sprites/ folder
+
 CSS file with classes is skype_sprites.css
+
 HTML file showing extracted sprites is example.html
 
 ## Dependancies
@@ -23,7 +25,11 @@ pefile.py. Version 2016.3.28 taken from [repo](https://github.com/erocarrera/pef
 ## Notes
 
 Tested with:
+
 Pillow==3.4.2
+
 pefile.py==2016.3.28
+
 SkypeResources.dll FileVersion: 7.29.66.102
+
 4.4.0-38-generic GNU/Linux
